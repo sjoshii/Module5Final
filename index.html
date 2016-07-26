@@ -517,9 +517,9 @@ var insertHtml = function (selector, html) {
 
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
-  var html1 = "<div class=\"text-center\">";
-  html1 += "<img src=\"ajax-loader.gif\"></div>";
-  insertHtml(selector, html1);
+  var html = "<div class=\"text-center\">";
+  html += "<img src=\"ajax-loader.gif\"></div>";
+  insertHtml(selector, html);
 };
 
 // Return substitute of '{{propName}}' 
